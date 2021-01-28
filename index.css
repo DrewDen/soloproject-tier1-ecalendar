@@ -34,6 +34,10 @@ html, body {
 }
 
 #calendar-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width:75%;
 	height:100%;
 	color:#26B9CC;
@@ -52,7 +56,7 @@ html, body {
 	flex-direction: row;
 	justify-content: space-around;
 	border-bottom: 2px solid gray;
-	margin: auto 10px;
+	margin: 0 10px;
 }
 
 #weekdays{
