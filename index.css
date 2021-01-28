@@ -11,20 +11,60 @@ html, body {
 	overflow: hidden;
 }
 
-#calendarContainer {
+#calendar-section {
 	width: 65%;
 	height: 100%;
-	background-color: lightblue;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
 }
 
-#eventContainer {
+#event-section {
 	width: 35%;
 	height: 100%;
 	background-color: lightcoral;
 	display: flex;
 	flex-direction: column;
 }
+
+.arrow{
+	color:#26B9CC;
+}
+
+#calendar-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:75%;
+	height:100%;
+	color:#26B9CC;
+	/* border:2px solid blueviolet; */
+}
+
+#title{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+#month{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: 2px solid gray;
+	margin: 0 10px;
+}
+
+#weekdays{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
