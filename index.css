@@ -30,7 +30,6 @@ html, body {
 
 .arrow{
 	color:#26B9CC;
-
 }
 
 #calendar-container{
@@ -45,6 +44,7 @@ html, body {
 }
 
 #title{
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -52,6 +52,7 @@ html, body {
 }
 
 #month{
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -60,6 +61,7 @@ html, body {
 }
 
 #weekdays{
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
