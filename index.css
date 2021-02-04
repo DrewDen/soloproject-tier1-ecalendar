@@ -38,9 +38,8 @@ html, body {
 	justify-content: center;
 	align-items: center;
 	width:75%;
-	height:100%;
+	height:80vh;
 	color:#26B9CC;
-	/* border:2px solid blueviolet; */
 }
 
 #title{
@@ -63,8 +62,28 @@ html, body {
 #weekdays{
 	width: 100%;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
+	flex-direction: row
 }
+
+#days{
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#days div, #weekdays h4{
+	display: flex;
+	justify-content: center;
+	width:calc(100% / 7);
+}
+
+
+
+
+
+
+
 
