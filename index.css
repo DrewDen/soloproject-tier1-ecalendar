@@ -11,6 +11,8 @@ html, body {
 	overflow: hidden;
 }
 
+/* *This starts the styles for the calendar section of the app */
+
 #calendar-section {
 	width: 65%;
 	height: 100%;
@@ -20,13 +22,7 @@ html, body {
 	align-items: center;
 }
 
-#event-section {
-	width: 35%;
-	height: 100%;
-	background-color: lightcoral;
-	display: flex;
-	flex-direction: column;
-}
+
 
 .arrow{
 	color:#26B9CC;
@@ -80,10 +76,77 @@ html, body {
 	width:calc(100% / 7);
 }
 
+/* *This starts the styles for the event section of the app */
+
+#event-section {
+	width: 35%;
+	height: 100%;
+	background: linear-gradient(180deg, rgba(160, 170, 140, 0.884) 0%, rgba(255, 255, 255, 0) 100%), rgba(160, 236, 247, 0.5)url("./assets/mountain.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+#event-section h4{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 50px;
+	color: whitesmoke;
+
+}
+
+#event-section h3,
+#event-section h2{
+	color: whitesmoke;
+	padding-left: 60px;
+}
+
+
+.event-planner{
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	height: 100%;
+	align-items: center;
+	padding-left:30px;
+}
 
 
 
+.event-day{
+	padding-right: 20px;
+	border-right: 4px solid whitesmoke;
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+}
 
+.event-day p{
+	padding-bottom: 15px;
+}
 
+.event-topic{
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(66, 65, 65, 0.199);
+	border-radius: 10px;
+	padding: 10px;
+}
+.event-input{
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+}
+
+.event-topic p{
+	padding-bottom: 15px;
+}
+
+.fas{
+	padding-left: 10px;
+}
 
 
