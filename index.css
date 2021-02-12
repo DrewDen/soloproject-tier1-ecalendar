@@ -131,7 +131,7 @@ html, body {
 	font-size: 1.3rem;
 	padding: 0 10px;
 	color: rgb(255, 255, 255);
-	background-color: rgba(66, 65, 65, 0.199);
+	background-color: rgba(54, 38, 38, 0.199);
 	border-radius: 10px;
 }
 
@@ -141,10 +141,12 @@ html, body {
 	color: rgb(255, 255, 255);
 	display: flex;
 	justify-content: flex-end;
-	height: 100%;
 }
 
 
 .fas{
-	padding-left: 10px;
+	padding-left:10px;
+	display: flex;
+	padding-top: 5px;	
 }
+
