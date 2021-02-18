@@ -1,3 +1,9 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 * {
 	box-sizing: border-box;
 }
@@ -110,7 +116,7 @@ html, body {
 /* *This starts the styles for the event section of the app */
 
 #event-section {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	width: 35%;
 	height: 100%;
 	background:linear-gradient(180deg, rgba(209, 226, 188, 0.9) 0%, rgba(160, 236, 247, 0.5) 100%), url('./assets/mountain.jpg');
@@ -130,54 +136,80 @@ html, body {
 
 }
 
+#event-section h3{
+	font-weight: 400;
+}
+
+#event-section h1{
+	font-size: 28px;
+}
+
 #event-section h3,
-#event-section h2{
+#event-section h1{
 	color: whitesmoke;
 	padding-left: 60px;
 }
 
-
 .event-planner{
 	display: flex;
+	padding: 0 15px;;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	margin-top: 20px;
 	height: 100%;
-	padding: 20px 0;
+	width: 80%;
 }
 
 
 .event-day{	
+	font-weight:900 ;
 	display: flex;
 	flex-direction: column;
-	font-size: 1.3rem;
+	font-style: italic;
+	font-size: 18px;
 	padding-right: 15px;
 	border-right: 4px solid whitesmoke;
 	color: rgb(255, 255, 255);
+	height: 85%;
 }
 
 
 .event-topic{
+	font-weight:300 ;
 	display: flex;
-	flex-direction: column; 
-	font-size: 1.3rem;
-	padding: 0 10px;
+	flex-direction: column;
+	font-size: 18px;
+	font-style: italic;
+	padding: 0 15px;
 	color: rgb(255, 255, 255);
-	background-color: rgba(54, 38, 38, 0.199);
-	border-radius: 10px;
+	background-color: rgba(54, 38, 38, 0.137);
+	border-radius: 5px;
+	width: 65%;
+	height: 85%;
 }
 
 
 .event-input{
-	font-size: 20px;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
 	color: rgb(255, 255, 255);
 	display: flex;
 	justify-content: flex-end;
+	margin-right:30px;
+
 }
 
-
-.fas{
-	padding-left:10px;
+.icon{
+	background-color:white;
+	font-size: 25px;
+	margin-left: 10px;
+	border-radius: 50%;
+	width: 30px;
+	height: 100%;
 	display: flex;
-	padding-top: 5px;	
+	justify-content: center;
+	color:#26B9CC;
 }
+
 
