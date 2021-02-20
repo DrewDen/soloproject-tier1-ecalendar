@@ -5,7 +5,13 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel='stylesheet' href='index.css' />
-		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
 		<title>eCalendar</title>
 	</head>
 	<body>
@@ -47,7 +53,7 @@
 					<div>9</div>
 					<div>10</div>
 					<div>11</div>
-					<div>12</div>
+					<div class="active">12</div>
 					<div>13</div>
 					<div>14</div>
 					<div>15</div>
@@ -77,10 +83,26 @@
 			</div>
 			<i class="fas fa-chevron-right fa-2x arrow"></i>
 		</section>
-		<section id='event-section'>
-			<div>child</div>
-			<div>child</div>
-			<div>child</div>
+		<section id="event-section">
+			<h4>Sign-In</h4>
+			<h3>Monday</h3>
+			<h1>NOVEMBER 25</h1>
+			<div class="event-planner">
+				<div class="event-day">
+					<p>5</p>
+					<p>18</p>
+					<p>23</p>
+				</div>
+				<div class="event-topic">
+					<p>Dentist Appointment</p>
+					<p>Ashley's Birthday</p>
+					<p>Proposal Date</p>
+				</div>
+			</div>
+			<div>
+				<!-- <h4 class="event-input">Add An Event<i class="fas fa-plus-circle fa-lg"></i></h4> -->
+				<p class="event-input">Add An Event<span class="icon">&#43</span></p>
+			</div>
 		</section>
 
 	</html>
