@@ -166,10 +166,10 @@ html, body {
 
 .modal-content{
 	background-color: #f4f4f4;
-	margin: 15% auto;
-	padding: 100px;
-	width: 70%;
-	border: 1px solid black;
+	margin: 10% auto;
+	padding: 70px;
+	width: 50%;
+	
 	box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.3);
 }
 
@@ -182,4 +182,69 @@ html, body {
 .closeBtn:hover, .closeBtn:focus{
 	color: black;
 	cursor: pointer;
+}
+
+.month-content{
+	display: flex;
+	flex-direction: row;
+}
+
+.start-content{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+}
+
+.start-content p:nth-of-type(1){
+	flex-grow: 1;
+}
+.start-content p:nth-of-type(2){
+	flex-grow: 2;
+}
+.start-content p:nth-of-type(3){
+	flex-grow: 3;
+}
+
+.end-content{
+	display:flex;
+	flex-direction: row;
+	width: 50%;
+}
+
+.end-content p:nth-of-type(1){
+	flex-grow: 1;
+}
+.end-content p:nth-of-type(2){
+	flex-grow: 2;
+}
+.end-content p:nth-of-type(3){
+	flex-grow: 3;
+}
+
+/* !This is where you stopped and this is where you need to pick up on */
+
+.icon-content{
+	font-size: 20px;
+	text-indent: -5px;
+}
+
+.icon-content p:nth-of-type(2){
+	text-indent: -2px;
+}
+
+.button{
+	
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	
+}
+
+.button button{
+	border-radius:5px;
+	background-color: #26B9CC;
+	font-size:18px;
+	padding:3px 20px;
+	color: white;
+	border: none;
 }
